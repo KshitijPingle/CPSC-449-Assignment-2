@@ -51,7 +51,3 @@ The above is a screenshot of trying to delete books with an Admin's token (autho
 ![GET After Delete](screenshots/books_after_delete.jpg)
 The above is a screenshot of getting the books after deleting, showing that the admin successfully deleted the book  
 
-
-
-
-
