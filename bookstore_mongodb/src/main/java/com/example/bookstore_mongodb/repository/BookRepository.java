@@ -26,5 +26,5 @@ public interface BookRepository extends MongoRepository<Book, String> {
     @Query("{'price' :  {$gt: ?0, $lt :  ?1}}")
     List<Book> getBooksByPriceRange(BigDecimal lower, BigDecimal upper);
 
-
+    // Note: Deleting a book by ID should be provided with extending to MongoRepository
 }
